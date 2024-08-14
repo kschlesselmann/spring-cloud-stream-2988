@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sample
+  cloud:
+    stream:
+      bindings:
+        test-out-0:
+          destination: test
+    function:
+      definition: test
